@@ -7,7 +7,7 @@ NOTE : Ini Database dan tabel yang aku buat, kalian bisa contoh ini tapi kalo bi
 ngga mesti sama persis kaya aku.
 
 
-
+Link Screenshoot Pembuatan Database Melalui CMD menggunakan XAMPP : https://docs.google.com/document/d/1KCFz3bzx4-_qC4mQa25ueabQ4aPP_Uwbz41qpsFxXP4/edit?usp=sharing
 
 
 
@@ -44,6 +44,7 @@ Kolom-kolom yang dibutuhkan:
 -> ID_Anggota (Foreign Key)
 -> Tanggal_Peminjaman
 -> Tanggal_Pengembalian
+-> Judul_Buku
 -> Jumlah_Buku_Dipinjam
 -> Status_Pengembalian (Belum dikembalikan/Sudah dikembalikan)
 
