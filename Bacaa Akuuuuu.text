@@ -1,0 +1,85 @@
+
+
+
+
+
+NOTE : Ini Database dan tabel yang aku buat, kalian bisa contoh ini tapi kalo bisa ada beberapa hal yang di edit yak hehe, misal kalian bebas nambahin tabel lainnya kok,
+ngga mesti sama persis kaya aku.
+
+
+
+
+
+
++-----------------------------------+
+Analisa Kasus Perpustakaan Smart.
++-----------------------------------+
+
+------------------------------------------
+Nama Database : perpustakaan_smart_bae
+------------------------------------------
+
+Analisa Table : 
+-----------------+
+
+1.Tabel Anggota
+Tabel ini akan berisi informasi tentang anggota perpustakaan, seperti nama lengkap, alamat, nomor telepon, email, dan status keanggotaan.
+
+Kolom-kolom yang dibutuhkan:
+
+-> ID_Anggota (Primary Key)
+-> Nama_Lengkap
+-> Alamat
+-> No_Whatsapp
+-> Email
+-> Status_Anggota (Pelajar/Mahasiswa/Masyarakat)
+
+
+2. Tabel Peminjaman
+Tabel ini akan berisi informasi tentang peminjaman buku oleh anggota perpustakaan, seperti tanggal peminjaman, tanggal pengembalian, jumlah buku yang dipinjam, dan status pengembalian.
+
+Kolom-kolom yang dibutuhkan:
+
+-> ID_Peminjaman (Primary Key)
+-> ID_Anggota (Foreign Key)
+-> Tanggal_Peminjaman
+-> Tanggal_Pengembalian
+-> Jumlah_Buku_Dipinjam
+-> Status_Pengembalian (Belum dikembalikan/Sudah dikembalikan)
+
+
+3. Tabel Buku
+Tabel ini akan berisi informasi tentang buku yang tersedia di perpustakaan, seperti judul buku, pengarang, penerbit, dan jumlah buku yang tersedia.
+
+Kolom-kolom yang dibutuhkan:
+
+-> ID_Buku (Primary Key)
+-> Judul_Buku
+-> Pengarang
+-> Penerbit
+-> Jumlah_Tersedia
+
+
+4.Tabel Denda
+Tabel ini akan berisi informasi tentang denda yang dikenakan kepada anggota perpustakaan, seperti jenis denda, jumlah denda, dan status pembayaran.
+
+Kolom-kolom yang dibutuhkan:
+
+-> ID_Denda (Primary Key)
+-> ID_Anggota (Foreign Key)
+-> Jenis_Denda
+-> Jumlah_Denda
+-> Status_Pembayaran (Belum dibayar/Sudah dibayar)
+
+
+5.Tabel Donatur
+Tabel ini akan berisi informasi tentang donatur yang memberikan sumbangan kepada perpustakaan, seperti nama lengkap, alamat, nomor telepon, email, dan status keanggotaan.
+
+Kolom-kolom yang dibutuhkan:
+
+-> ID_Donatur (Primary Key)
+-> Nama_Lengkap
+-> Alamat
+-> No_Whatsapp
+-> Status_Anggota (Anggota/Masyarakat Luas)
+Dengan database dan tabel-tabel tersebut, kita dapat mengelola data anggota, buku, peminjaman, denda, dan donatur dengan lebih terorganisir dan efisien.
