@@ -33,6 +33,7 @@ Kolom-kolom yang dibutuhkan:
 -> No_Whatsapp
 -> Email
 -> Status_Anggota (Pelajar/Mahasiswa/Masyarakat)
+-> Pembayaran (Sudah/Belum)
 
 
 2. Tabel Peminjaman
